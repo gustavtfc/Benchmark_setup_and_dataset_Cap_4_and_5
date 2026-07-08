@@ -1,0 +1,21 @@
+{
+  "total_samples": 25,
+  "vulnerability_types": {
+    ">Input validation<>Denial of service<": 3,
+    ">Overflow<": 3,
+    ">Overflow<>Denial of service<": 3,
+    ">Overflow<>Memory Corruption<>Denial of service<": 3,
+    ">Denial of service<": 3,
+    ">Overflow<>Execute code<>Denial of service<": 3,
+    ">Overflow<>Input validation<>Denial of service<": 3,
+    ">Execute code<>Denial of service<": 1,
+    "Undefined": 1,
+    ">Memory Corruption<>Denial of service<": 1,
+    ">Memory Corruption<>Execute code<": 1
+  },
+  "file_types": {
+    "c": 25
+  },
+  "unique_cves": 15,
+  "prompt_variants": 3
+}

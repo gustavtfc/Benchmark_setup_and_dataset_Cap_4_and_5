@@ -1,0 +1,22 @@
+{
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.terminal.activateEnvironment": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "files.associations": {
+        "*.csv": "csv",
+        "*.json": "json"
+    },
+    "csv-preview.separator": ",",
+    "csv-preview.hasHeaders": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#1a1a1a"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.py": "${capture}.pyc",
+        "test_*.json": "test_*.csv",
+        "vulnerability_test_results_*.json": "vulnerability_test_results_*.csv, comprehensive_analysis_*.json"
+    }
+}

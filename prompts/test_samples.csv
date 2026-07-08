@@ -1,0 +1,26 @@
+CVE,V_CLASSIFICATION,VULNERABILITY_URL,P_COMMIT,FilePath,BeginLine,EndLine,Patched,Occurrence,Affected
+CVE-2016-10228,>Input validation<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=19519,9a99c682144bdbd40792ebf822fe9264e0376fb5,support/blob_repeat.c,249,263,0,after,0
+CVE-2016-10228,>Input validation<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=19519,9a99c682144bdbd40792ebf822fe9264e0376fb5,support/blob_repeat.c,108,125,0,before,0
+CVE-2016-10228,>Input validation<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=19519,9a99c682144bdbd40792ebf822fe9264e0376fb5,support/blob_repeat.c,89,103,0,before,0
+CVE-2014-5119,>Execute code<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=17187,a1a6a401ab0a3c9f15fb7eaebbdcee24192254e8,sysdeps/posix/getaddrinfo.c,\N,\N,1,after,0
+CVE-2005-3590,>Overflow<,https://sourceware.org/bugzilla/show_bug.cgi?id=661,6c215a8d6c972ca3324107109c393f21e782fb10,stdio-common/tst-sscanf.c,\N,\N,1,after,0
+CVE-2017-17426,>Overflow<,https://sourceware.org/bugzilla/show_bug.cgi?id=22375,34697694e8a93b325b18f25f7dcded55d6baeaf6,resolv/nss_dns/dns-network.c,\N,\N,2,after,0
+CVE-2017-15670,>Overflow<,https://sourceware.org/bugzilla/show_bug.cgi?id=22320,e80fc1fc98bf614eb01cf8325503df3a1451a99c,iconv/gconv_trans.c,\N,\N,2,after,0
+CVE-2021-35942,>Overflow<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=28011,5adda61f62b77384718b4c0d8336ade8f2b4b35c,iconv/iconv_prog.c,714,734,0,after,0
+CVE-2021-35942,>Overflow<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=28011,5adda61f62b77384718b4c0d8336ade8f2b4b35c,intl/dcigettext.c,1499,1585,0,before,0
+CVE-2021-35942,>Overflow<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=28011,5adda61f62b77384718b4c0d8336ade8f2b4b35c,iconv/iconv_prog.c,538,614,0,before,0
+CVE-2020-27618,>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=19519#c21,91927b7c76437db860cd86a7714476b56bb39d07,malloc/malloc.c,3262,3331,0,after,0
+CVE-2020-27618,>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=19519#c21,91927b7c76437db860cd86a7714476b56bb39d07,malloc/malloc.c,\N,\N,2,after,0
+CVE-2013-4332,>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=15856,b73ed247781d533628b681f57257dc85882645d3,sysdeps/posix/getaddrinfo.c,1558,1563,0,before,0
+CVE-2015-8982,>Overflow<>Execute code<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=16009,0f9e585480edcdf1e30dc3d79e24b84aeee516fa,stdlib/strtod_l.c,\N,\N,1,after,0
+CVE-2015-1781,>Overflow<>Execute code<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=18287,2959eda9272a033863c271aff62095abd01bd4e3,stdio-common/vfprintf.c,\N,\N,2,after,0
+CVE-2015-1781,>Overflow<>Execute code<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=18287,2959eda9272a033863c271aff62095abd01bd4e3,stdio-common/vfprintf.c,1987,2035,0,before,0
+CVE-2016-3706,>Overflow<>Input validation<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=20010,4ab2ab03d4351914ee53248dc5aef4a8c88ff8b9,grp/initgroups.c,174,222,0,after,0
+CVE-2016-3706,>Overflow<>Input validation<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=20010,4ab2ab03d4351914ee53248dc5aef4a8c88ff8b9,intl/dcigettext.c,\N,\N,2,after,0
+CVE-2016-3706,>Overflow<>Input validation<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=20010,4ab2ab03d4351914ee53248dc5aef4a8c88ff8b9,grp/initgroups.c,140,170,0,before,0
+CVE-2016-4429,>Overflow<>Memory Corruption<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=20112,bc779a1a5b3035133024b21e2f339fe4219fb11c,grp/initgroups.c,174,222,0,before,0
+CVE-2016-4429,>Overflow<>Memory Corruption<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=20112,bc779a1a5b3035133024b21e2f339fe4219fb11c,stdio-common/printf_fphex.c,92,493,1,after,0
+CVE-2016-4429,>Overflow<>Memory Corruption<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=20112,d42eed4a044e5e10dfb885cf9891c2518a72a491,malloc/malloc.c,2839,2867,0,before,0
+CVE-2017-12132,Undefined,https://sourceware.org/bugzilla/show_bug.cgi?id=21361,e14a27723cc3a154d67f3f26e719d08c0ba9ad25,malloc/malloc.c,\N,\N,2,after,0
+CVE-2021-33574,>Memory Corruption<>Denial of service<,https://sourceware.org/bugzilla/show_bug.cgi?id=27896#c1,42d359350510506b87101cf77202fefcbfc790cb,posix/regexec.c,\N,\N,2,after,0
+CVE-2020-6096,>Memory Corruption<>Execute code<,https://sourceware.org/bugzilla/show_bug.cgi?id=25620,eec0f4218cda936a6ab8f543e90b96b196df3fc2,elf/dl-load.c,318,345,0,after,0

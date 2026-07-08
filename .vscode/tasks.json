@@ -1,0 +1,106 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Check Ollama Status",
+            "type": "shell",
+            "command": "ollama",
+            "args": ["list"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test Single Model",
+            "type": "shell",
+            "command": "ollama",
+            "args": [
+                "run", 
+                "${input:modelName}", 
+                "Analyze this code for security vulnerabilities: ${input:codeSnippet}"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Prepare Test Data",
+            "type": "shell", 
+            "command": "python3",
+            "args": ["scripts/prepare_test_data.py"],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Full Test Suite",
+            "type": "shell",
+            "command": "python3", 
+            "args": ["scripts/test_vulnerability_detection.py"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always", 
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Analyze Test Results",
+            "type": "shell",
+            "command": "python3",
+            "args": ["scripts/analyze_detection_capability.py"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Monitor System Resources",
+            "type": "shell",
+            "command": "watch",
+            "args": ["-n", "5", "free -h && echo '---' && ps aux | grep ollama"],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "modelName",
+            "description": "Select Qwen model to test",
+            "type": "pickString",
+            "options": [
+                "qwen2.5:1.5b",
+                "qwen2.5-coder:1.5b",
+                "qwen2.5:7b", 
+                "qwen2.5-coder:7b"
+            ]
+        },
+        {
+            "id": "codeSnippet",
+            "description": "Enter code snippet to analyze",
+            "type": "promptString",
+            "default": "strcpy(buffer, user_input);"
+        }
+    ]
+}
