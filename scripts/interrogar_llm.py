@@ -20,10 +20,10 @@ MODELOS = [
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 
-# PASSO MANUAL: Mude apenas o NOME do arquivo aqui (ex: amostra_0..., amostra_360...)
+# PASSO MANUAL: (ex: amostra_0..., amostra_360...)
 NOME_ARQUIVO = "amostra_360_patched_CVE-2021-35942.c" 
 
-# O Python agora monta o caminho perfeito, não importa de onde você rode o terminal
+# O Python agora monta o caminho perfeito em qualquer local do terminal
 ARQUIVO_ALVO = os.path.join(BASE_DIR, "data", NOME_ARQUIVO)
 
 def main():

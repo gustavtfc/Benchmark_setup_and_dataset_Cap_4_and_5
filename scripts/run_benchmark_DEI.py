@@ -19,6 +19,9 @@ OLLAMA_ENDPOINT = "http://10.3.1.226:80/api/generate"
 OLLAMA_USERNAME = 'gmarinho'
 OLLAMA_PASSWORD = 'J9u2E8fQRTT5'
 
+# LINGUAGEM DO DATASET ATUAL (Altere para "Java", "Python", etc. no futuro)
+TARGET_LANGUAGE = "Java"
+
 # 1. Pega no caminho exato onde este script está (pasta 'scripts')
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -26,40 +29,36 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 
 # 3. Agora junta as pastas corretas a partir da raiz
-DATASET_PATH = os.path.join(BASE_DIR, "data", "dataset_patched_WITH_CODE_Glibc.csv")
+DATASET_PATH = os.path.join(BASE_DIR, "data", "dataset_java_patched_WITH_CODE.csv")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
 # A lista de modelos para o teste parcial seguro
 # A lista definitiva de modelos para o dataset completo
 MODELS_TO_TEST = [
-    #"codellama:7b",
-    "gemma3:12b",
+    "codellama:7b",
+    #"gemma3:12b",
     #"qwen2.5:14b",
     #"qwen2.5-coder:14b",
     #"devstral-32k:latest",
-    #"qwen3.6:35b",
+    #"qwen3-coder:30b",
     #"deepseek-coder-v2:latest"
 
-#Adicionais
-    #"Llama2:7b"
-    #"gemma4:31b"
-    #"qwen3-coder:30b"
-    #"llama3.1:70b"
 ]
 
-# NOVO: Lista de temperaturas para testar cientificamente
-TEMPERATURES_TO_TEST = [0.0, 0.2]
+# Lista de temperaturas para testar cientificamente
+TEMPERATURES_TO_TEST = [0.0, 0.2, 0.5]
 
-def build_prompt(code_snippet):
+def build_prompt(code_snippet, target_language="C"):
     """
     Constrói o prompt Zero-Shot validado.
+    Utiliza injeção dinâmica da linguagem para ser um framework agnóstico.
     Força a saída para o formato JSON estrito.
     """
     return f"""[SYSTEM]
-You are an expert cybersecurity code reviewer. Your task is to analyze the provided C source code for security vulnerabilities.
+You are an expert cybersecurity code reviewer. Your task is to analyze the provided {target_language} source code for security vulnerabilities.
 
 [USER]
-Analyze the following C function. 
+Analyze the following {target_language} function. 
 1. Determine if it contains a vulnerability.
 2. If vulnerable, identify the most likely CWE category.
 
@@ -92,7 +91,7 @@ def query_ollama(model_name, prompt, temp):
 
     start_time = time.perf_counter()
     try:
-        # AQUI ESTÁ A MAGIA DO PROXY: Adicionamos o auth e mantemos o POST
+        # PROXY: auth
         response = requests.post(
             OLLAMA_ENDPOINT, 
             json=payload, 
@@ -173,14 +172,13 @@ def main():
                     #writer.writerow(record)
             #continue 
         
-        prompt = build_prompt(code_snippet)
+        prompt = build_prompt(code_snippet, TARGET_LANGUAGE)
         
         for model in MODELS_TO_TEST:
-            for temp in TEMPERATURES_TO_TEST:  # <--- ESSA É A LINHA QUE PROVAVELMENTE FALTOU
+            for temp in TEMPERATURES_TO_TEST:  
                 current_test += 1
                 print(f"🔄 [{current_test}/{total_tests}] Testando {model} | Temp: {temp} na amostra {index} (Expected: {expected_cwe})...")
                 
-                # Agora o Python sabe quem é o 'temp'
                 output, latency = query_ollama(model, prompt, temp)
                 
                 record = {

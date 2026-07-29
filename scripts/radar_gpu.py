@@ -11,10 +11,10 @@ OLLAMA_ENDPOINT = "http://10.3.1.241:80/api/generate"
 OLLAMA_USERNAME = 'gmarinho'
 OLLAMA_PASSWORD = 'J9u2E8fQRTT5'
 
-# Usamos o modelo de 12B como "cobaia". Se ele responder rápido, a GPU está livre.
+# Teste modelo de 12B como "cobaia". Se ele responder rápido, a GPU está livre.
 MODEL_TO_TEST = "gemma3:12b"
-INTERVALO_MINUTOS = 30  # De quanto em quanto tempo ele faz o teste (podes alterar)
-LIMITE_SEGUNDOS = 15.0  # Se responder em menos de 15s, a GPU está nossa!
+INTERVALO_MINUTOS = 30  # De quanto em quanto tempo ele faz o teste
+LIMITE_SEGUNDOS = 15.0  # Se responder em menos de 15s, a GPU está livre!
 
 def enviar_sonda():
     """Faz um pedido minúsculo ao modelo para testar a velocidade."""
@@ -23,7 +23,7 @@ def enviar_sonda():
         "prompt": "Say 'OK' and nothing else.",
         "stream": False,
         "options": {
-            "num_predict": 5  # Queremos apenas uma resposta de 1 ou 2 palavras
+            "num_predict": 5  
         }
     }
     

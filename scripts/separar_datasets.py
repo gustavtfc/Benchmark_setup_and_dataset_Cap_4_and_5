@@ -18,7 +18,7 @@ def main():
         return
         
     print("🧹 Limpando o dataset (Removendo arquivos de teste)...")
-    # A MÁGICA: Remove qualquer linha onde o FilePath contenha 'bug', 'tst' ou 'test'
+    # Remove qualquer linha onde o FilePath contenha 'bug', 'tst' ou 'test'
     df_limpo = df[~df['FilePath'].str.contains(r'bug|tst|test', case=False, na=False)].copy()
     
     print("🔍 Maximizando os pares perfeitos (Before e After)...")
