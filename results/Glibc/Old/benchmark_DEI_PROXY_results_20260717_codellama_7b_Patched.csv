@@ -1,0 +1,725 @@
+sample_id,model,temperature,expected_cwe,predicted_is_vulnerable,predicted_cwe,reasoning,latency_ms
+0,codellama:7b,0.0,>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,62970.34
+0,codellama:7b,0.2,>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,75443.87
+1,codellama:7b,0.0,>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,70502.64
+1,codellama:7b,0.2,>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,67760.68
+2,codellama:7b,0.0,>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,70286.7
+2,codellama:7b,0.2,>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,73240.89
+3,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,41076.72
+3,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,129.58
+4,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,149.24
+4,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,139.64
+5,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.59
+5,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,141.29
+6,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,126.04
+6,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,182.92
+7,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,126.52
+7,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,122.69
+8,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,104.57
+8,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,155.68
+9,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,145.29
+9,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.82
+10,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,114.17
+10,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,132.22
+11,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,123.64
+11,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,72.74
+12,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,141.55
+12,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,91.87
+13,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,133.69
+13,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,138.96
+14,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,117.65
+14,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,133.48
+15,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,121.76
+15,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,105.93
+16,codellama:7b,0.0,>Denial of service<,False,None,This function does not contain any security vulnerabilities. It simply returns a hardcoded string 'HTTP ERROR 404'.,617.29
+16,codellama:7b,0.2,>Denial of service<,False,None,The provided code does not contain any vulnerabilities. The function is simply a placeholder for a custom error message that will be displayed when the HTTP status code is 404.,525.27
+17,codellama:7b,0.0,>Denial of service<,False,None,This function does not contain any security vulnerabilities. It simply returns a hardcoded string 'HTTP ERROR 404'.,545.33
+17,codellama:7b,0.2,>Denial of service<,True,CWE-200,"The function is vulnerable to a buffer overflow attack. The 'gets' function is known to be insecure because it does not perform bounds checking on the input string, which can lead to a buffer overflow if the user enters more characters than the buffer can hold.",707.05
+18,codellama:7b,0.0,>Overflow<>Execute code<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,178.16
+18,codellama:7b,0.2,>Overflow<>Execute code<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,140.55
+19,codellama:7b,0.0,>Overflow<>Execute code<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,104.59
+19,codellama:7b,0.2,>Overflow<>Execute code<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,156.3
+20,codellama:7b,0.0,>Overflow<>Execute code<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,439.83
+20,codellama:7b,0.2,>Overflow<>Execute code<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,1252.24
+21,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,260.3
+21,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,220.43
+22,codellama:7b,0.0,>Overflow<>Execute code<>Denial of service<,True,CWE-78,The function __setmntent() does not perform any input validation on the file name provided. This can lead to a vulnerability where an attacker can exploit this vulnerability by providing a malicious file name that can cause the program to read or write sensitive data.,1258.03
+22,codellama:7b,0.2,>Overflow<>Execute code<>Denial of service<,False,None,"The provided code does not contain any vulnerabilities. The functions __setmntent, __endmntent, __getmntent_r, and __addmntent are all used to read and write mount table entries from a file, but they do not have any known security vulnerabilities.",902.06
+23,codellama:7b,0.0,>Input validation<>Denial of service<,False,None,The provided C function does not contain any vulnerabilities. It is a helper function for allocating memory for repeated data and uses the mmap system call to allocate the memory. The function also checks for overflows in the multiplication of total_size and element_size before calling mmap.,17247.15
+23,codellama:7b,0.2,>Input validation<>Denial of service<,False,None,"The function does not contain any vulnerabilities. It is a C library function that provides an interface to allocate and free memory for repeated data. The function uses the mmap system call to create mappings with aliasing, which can improve performance by reducing the number of distinct mappings. However, it also increases the risk of security breaches due to the use of untrusted input in the allocation size calculation.",1452.43
+24,codellama:7b,0.0,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any vulnerabilities. It is a helper function for allocating memory for repeated data and uses the mmap system call to allocate the memory. The function also checks for overflows in the multiplication of total_size and element_size before calling mmap, which ensures that the allocation is done safely.",1172.2
+24,codellama:7b,0.2,>Input validation<>Denial of service<,False,None,"This function does not contain any obvious security vulnerabilities. It is a helper function for allocating memory for repeated data and it uses the mmap system call to allocate memory in large chunks. The function also checks for overflows when calculating the total size of the allocation, which helps prevent buffer overflow attacks. Additionally, the function uses the PROT_NONE protection flag on the allocated memory regions, which makes it difficult for attackers to exploit the vulnerability.",1593.78
+25,codellama:7b,0.0,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any vulnerabilities. It is a helper function for allocating memory for repeated data and uses the mmap system call to allocate the memory. The function also checks for overflows in the multiplication of total_size and element_size before calling mmap, which ensures that the allocation is done safely.",1131.63
+25,codellama:7b,0.2,>Input validation<>Denial of service<,False,None,The function does not contain any vulnerabilities.,580.49
+26,codellama:7b,0.0,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any vulnerabilities. It is a helper function for allocating memory for repeated data and uses the mmap system call to allocate the memory. The function also checks for overflows in the multiplication of total_size and element_size before calling mmap, which ensures that the allocation is done safely.",1340.73
+26,codellama:7b,0.2,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any security vulnerabilities. It is a helper function for allocating memory for repeated data in the GNU C Library. The function uses mmap with alias mappings to optimize memory usage for small allocations and unusual size combinations. Additionally, it checks for overflows and sets errno accordingly. The function also includes error handling for failed system calls.",1416.05
+27,codellama:7b,0.0,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any vulnerabilities. It is a helper function for allocating memory for repeated data and uses the mmap system call to allocate the memory. The function also checks for overflows in the multiplication of total_size and element_size before calling mmap, which ensures that the allocation is done safely.",1351.03
+27,codellama:7b,0.2,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any security vulnerabilities. It is a simple implementation of a memory allocation function that uses mmap to allocate memory for the repeated data. The function checks for overflows and returns an error if it occurs. Additionally, the function uses posix_fallocate to ensure that there is backing storage for the repeated mapping. Finally, the function creates the alias mappings using MAP_FILE | MAP_SHARED or MAP_FILE | MAP_PRIVATE, which are safe options.",1848.92
+28,codellama:7b,0.0,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any vulnerabilities. It is a helper function for allocating memory for repeated data and uses the mmap system call to allocate the memory. The function also checks for overflows in the multiplication of total_size and element_size before calling mmap, which ensures that the allocation is done safely.",1314.77
+28,codellama:7b,0.2,>Input validation<>Denial of service<,False,None,"The provided C function does not contain any security vulnerabilities. It is a helper function for allocating memory for repeated data in the GNU C Library, and it uses mmap with alias mappings to optimize memory usage.",774.29
+29,codellama:7b,0.0,>Input validation<,True,CWE-78,"The function __libc_clntudp_bufcreate() contains a buffer overflow vulnerability. The function allocates memory for the client handle and the private data using mem_alloc(), which does not perform any bounds checking. Additionally, the function uses the value of sendsz and recvsz as the size of the allocated buffers without performing any validation. This allows an attacker to provide a specially crafted input that can cause the function to write beyond the end of the allocated buffer, resulting in a buffer overflow.",3428.34
+29,codellama:7b,0.2,>Input validation<,True,CWE-78,"The function __libc_clntudp_bufcreate in the provided C source code contains a vulnerability with the potential to lead to remote code execution. The function creates a client handle for UDP based RPC operations, but it does not properly validate user input. An attacker could potentially exploit this vulnerability by sending malicious data to the function, which could result in the execution of arbitrary code on the system.",1548.44
+30,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,14763.68
+30,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,35845.16
+31,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,153.05
+31,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,128.15
+32,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.82
+32,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,139.86
+33,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,158.66
+33,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,136.85
+34,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,142.71
+34,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,125.88
+35,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.16
+35,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.61
+36,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,2906.71
+36,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,145.05
+37,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,124.35
+37,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,165.35
+38,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.78
+38,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,155.18
+39,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,483.51
+39,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.22
+40,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,163.52
+40,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,95.49
+41,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,103.99
+41,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,141.94
+42,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,113.63
+42,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,120.91
+43,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.57
+43,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,134.02
+44,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,145.12
+44,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,110.89
+45,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-78,"The function uses the 'alloca' function to allocate memory on the stack. However, it does not check the return value of alloca and assumes that it will always succeed. This can lead to a buffer overflow attack if the stack is full.",10651.74
+45,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The function uses the `alloca` function to allocate memory on the stack. However, it does not check for a NULL return value from `alloca`, which could cause a buffer overflow if the allocation fails.",1532.59
+46,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,40721.6
+46,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,588.52
+47,codellama:7b,0.0,>Overflow<>Input validation<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,267.49
+47,codellama:7b,0.2,>Overflow<>Input validation<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,152.62
+48,codellama:7b,0.0,>Overflow<>Input validation<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,144.05
+48,codellama:7b,0.2,>Overflow<>Input validation<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,124.16
+49,codellama:7b,0.0,>Overflow<>Input validation<>Denial of service<,True,CWE-284,"The function getgrouplist() uses a fixed buffer of size 16 to store the group memberships for a user. However, this buffer is not large enough to hold all possible group memberships, which can cause a buffer overflow attack. Additionally, the function does not check the return value of setgroups(), which can lead to a security vulnerability if the system's kernel is configured with a smaller limit on the number of groups than what is specified in the code.",1585.11
+49,codellama:7b,0.2,>Overflow<>Input validation<>Denial of service<,True,CWE-78,"The function getgrouplist is vulnerable to a buffer overflow attack because it does not check the size of the provided buffer before writing data into it. An attacker can exploit this vulnerability by providing a specially crafted user name that causes the function to write more data than the provided buffer can hold, resulting in a buffer overflow.",987.51
+50,codellama:7b,0.0,>Overflow<>Memory Corruption<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,827.79
+50,codellama:7b,0.2,>Overflow<>Memory Corruption<>Denial of service<,True,CWE-20,"The function __printf_fphex contains a vulnerability in the way it handles precision. The function uses the precision to determine how many digits of the mantissa to print, but does not check if the precision is negative or greater than the number of digits available. This can lead to an integer overflow and cause a buffer overflow attack.",78924.17
+51,codellama:7b,0.0,>Overflow<>Memory Corruption<>Denial of service<,True,CWE-284,"The function getgrouplist() uses a fixed buffer of size 16 to store the group memberships for a user. However, this buffer is not large enough to hold all possible group memberships, which can cause a buffer overflow attack. Additionally, the function does not check the return value of setgroups(), which can lead to a security vulnerability if the system's kernel is configured with a smaller limit on the number of groups than what is specified in the code.",21494.19
+51,codellama:7b,0.2,>Overflow<>Memory Corruption<>Denial of service<,True,CWE-287,"The function getgrouplist() uses a fixed buffer of size NGROUPS_MAX to store the group memberships for the current user. This can lead to a buffer overflow if the number of groups exceeds this limit. Additionally, the function does not check the return value of setgroups(), which can cause a denial of service attack by filling up the system's memory with excessive group memberships.",1214.0
+52,codellama:7b,0.0,>Overflow<>Memory Corruption<>Denial of service<,True,CWE-287,"The function getgrouplist() uses a fixed buffer of size 16 to store the group memberships for a user. This can lead to a buffer overflow if the number of groups exceeds this limit. Additionally, the function does not check the return value of setgroups(), which can cause the program to crash or behave unexpectedly.",1093.87
+52,codellama:7b,0.2,>Overflow<>Memory Corruption<>Denial of service<,True,CWE-285,"The function getgrouplist is vulnerable to a buffer overflow attack. The function takes an untrusted user input and uses it as the size of the output buffer. An attacker can exploit this by providing a large value for the group count, causing the function to write beyond the end of the allocated buffer.",1214.77
+53,codellama:7b,0.0,>Overflow<>Memory Corruption<>Denial of service<,True,CWE-287,"The function getgrouplist() uses a fixed buffer of size 16 to store the group memberships for a user. This can lead to a buffer overflow if the number of groups exceeds this limit. Additionally, the function does not check the return value of setgroups(), which can cause the program to crash or behave unexpectedly.",1228.87
+53,codellama:7b,0.2,>Overflow<>Memory Corruption<>Denial of service<,True,CWE-284,"The function getgrouplist uses a fixed buffer of size 64 for storing the group memberships. However, it does not check if the buffer is large enough to store all the groups and instead relies on the user to provide a large enough buffer. This can lead to a buffer overflow attack where an attacker can exploit this vulnerability by providing a malicious input that exceeds the fixed buffer size.",1107.35
+54,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,854.86
+54,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,187.72
+55,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,154.95
+55,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,179.84
+56,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,171.17
+56,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,170.49
+57,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,170.74
+57,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,171.22
+58,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,131.54
+58,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,150.21
+59,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,168.92
+59,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,152.67
+60,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,164.32
+60,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,187.13
+61,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,172.19
+61,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,174.26
+62,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.25
+62,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,236.6
+63,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,171.72
+63,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,176.83
+64,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,187.05
+64,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,172.07
+65,codellama:7b,0.0,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,168.01
+65,codellama:7b,0.2,Undefined,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,181.96
+66,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,92.31
+66,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,115.74
+67,codellama:7b,0.0,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for the null character at the end of the string. This can cause the function to read past the end of the allocated memory and overwrite adjacent variables.",2129.81
+67,codellama:7b,0.2,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability due to the use of strlen() and memcpy() without bounds checking. An attacker can exploit this vulnerability by sending a specially crafted request that exceeds the maximum size of the buffer, resulting in unintended behavior such as memory corruption or crashing of the application.",1418.05
+68,codellama:7b,0.0,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for the null character at the end of the string. Therefore, if the input string is longer than the size of the destination buffer, it will overwrite the memory beyond the buffer, leading to a buffer overflow.",1425.08
+68,codellama:7b,0.2,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a potential buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for null terminators and can potentially cause a buffer overflow if the input is not properly terminated.",1151.92
+69,codellama:7b,0.0,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for the null character at the end of the string. Therefore, if the input string is longer than the size of the destination buffer, it will overwrite the memory beyond the buffer, leading to a buffer overflow.",1426.38
+69,codellama:7b,0.2,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for the null character at the end of the string. This can lead to a buffer overflow if the input is not properly terminated with a null character.",1306.55
+70,codellama:7b,0.0,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for the null character at the end of the string. Therefore, if the input string is longer than the size of the destination buffer, it will overwrite the memory beyond the buffer, leading to a buffer overflow.",1449.71
+70,codellama:7b,0.2,>Overflow<,True,CWE-78,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of a string, but this function does not check for null bytes in the middle of the string. An attacker can exploit this by sending a specially crafted request that contains a long string with no null byte at the end.",1413.8
+71,codellama:7b,0.0,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for the null character at the end of the string. Therefore, if the input string is longer than the size of the destination buffer, it will overwrite the memory beyond the buffer, leading to a buffer overflow.",1435.72
+71,codellama:7b,0.2,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to search for the null character in the key parameter, which can lead to a buffer overflow if the length of the key is greater than the size of the buffer allocated for it.",1189.09
+72,codellama:7b,0.0,>Overflow<,True,CWE-20,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function uses the rawmemchr function to find the end of the string, but this function does not check for the null character at the end of the string. Therefore, if the input string is longer than the size of the destination buffer, it will overwrite the memory beyond the buffer, leading to a buffer overflow.",1459.29
+72,codellama:7b,0.2,>Overflow<,True,CWE-78,"The function addgetnetgrentX contains a buffer overflow vulnerability. The function allocates memory for the dataset using mempool_alloc and then copies data from the request header into the allocated memory. However, it does not check the size of the request header before copying the data, which could result in an overrun if the request header is larger than the allocated memory.",1429.83
+73,codellama:7b,0.0,>File inclusion<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,21552.82
+73,codellama:7b,0.2,>File inclusion<,True,CWE-78,"The function STRXFRM uses the locale information to determine the sort order of characters. However, it does not validate the input string before using it in the transformation process. An attacker could potentially exploit this vulnerability by providing a specially crafted string that contains malicious data.",36272.09
+74,codellama:7b,0.0,>Overflow<,False,None,The provided C function does not contain any vulnerabilities. It is a simple implementation of the getnetbyname and getnetbyaddr functions from the GNU C Library. The code is well-structured and has no obvious security issues.,19450.68
+74,codellama:7b,0.2,>Overflow<,False,None,"The provided C function does not contain any vulnerabilities. It is a simple implementation of the getnetbyname and getnetbyaddr functions from the GNU C Library. The code is well-structured and has proper error handling for all possible errors that can occur during the execution of the function. Additionally, it uses the resolv_context structure to handle DNS queries, which provides a secure way of performing DNS lookups.",1445.12
+75,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,9088.78
+75,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,5623.95
+76,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,6789.61
+76,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,40418.54
+77,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,146.57
+77,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,90.26
+78,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted string that exceeds the capacity of the destination buffer, causing the function to overwrite adjacent memory locations.",5061.39
+78,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit uses the __res_vinit function to initialize a resolver state structure. The __res_vinit function loads configuration data from /etc/resolv.conf and sets up default settings for the resolver. However, it does not perform any input validation on the configuration data, which makes it vulnerable to attacks that can cause it to crash or return incorrect results.",1851.07
+79,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file with a long line that exceeds the buffer size, causing the function to overwrite adjacent memory locations.",2037.17
+79,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit() does not perform any input validation on the user-supplied resolver configuration file. An attacker could potentially exploit this vulnerability by providing a malicious resolver configuration file that contains a large number of nameservers, leading to a denial of service or other security issues.",1328.4
+80,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,13083.94
+80,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,117.23
+81,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,158.99
+81,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,128.88
+82,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,131.49
+82,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,85.87
+83,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,98.89
+83,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,106.44
+84,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,106.66
+84,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,136.48
+85,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file with a long line that exceeds the buffer size, causing the function to overwrite adjacent memory locations.",1495.84
+85,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-78,"The function res_ninit() contains a vulnerability in its handling of the RES_OPTIONS environment variable. The function calls the res_setoptions() function to set up default settings for the resolver state. However, this function does not check whether the options are valid or not. An attacker could potentially exploit this by setting an invalid option value, which would cause the function to crash.",1502.93
+86,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,15482.92
+86,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,600.49
+87,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,442.79
+87,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,127.25
+88,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,140.39
+88,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,262.52
+89,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file with a long line that exceeds the buffer size, causing the function to overwrite adjacent memory locations.",1604.43
+89,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,8220.44
+90,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,3505.12
+90,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,37768.07
+91,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,113.01
+91,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.84
+92,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted string that exceeds the capacity of the destination buffer, causing the function to overwrite adjacent memory locations.",2222.68
+92,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack. The function uses the getline() function to read lines from a file and then parses them using sscanf(). However, the format string used by sscanf() does not specify any bounds for the input, which allows an attacker to provide a specially crafted line that exceeds the buffer size. This can lead to a buffer overflow attack.",1887.02
+93,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,19397.79
+93,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,14783.42
+94,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,103.87
+94,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,109.58
+95,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,108.17
+95,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,69.81
+96,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,The code contains a buffer overflow vulnerability due to the use of strlen() in the memset_space function. The vulnerability can be exploited by providing an input string that is longer than the maximum size of the destination buffer.,3904.29
+96,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,None,,739.34
+97,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,The function uses the strftime() function which is vulnerable to buffer overflow attacks. The vulnerability occurs when a malicious user provides a format string that exceeds the maximum size of the output buffer.,1514.02
+97,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,None,The code does not contain any vulnerabilities.,882.25
+98,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,The function uses the strftime() function which is vulnerable to buffer overflow attacks. The vulnerability occurs when a malicious user provides a format string that exceeds the maximum size of the output buffer.,1657.56
+98,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-78,"The code contains a buffer overflow vulnerability due to the use of the 'strftime' function. The 'strftime' function takes a format string as an argument and uses it to generate output. However, the code does not check the size of the destination buffer before writing to it, which can lead to a buffer overflow if the format string is too long.",2141.56
+99,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,The function uses the strftime() function which is vulnerable to buffer overflow attacks. The vulnerability occurs when a malicious user provides a format string that exceeds the maximum size of the output buffer.,1457.08
+99,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-20,The function uses the `strftime' function which is vulnerable to buffer overflow attacks. The function does not check the size of the output buffer before writing data into it.,1380.35
+100,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-20,The function uses the strftime() function which is vulnerable to buffer overflow attacks. The vulnerability occurs when a malicious user provides a format string that exceeds the maximum size of the output buffer.,1491.77
+100,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-20,"The code contains a buffer overflow vulnerability due to the use of the 'strftime' function without bounds checking. The 'strftime' function takes a format string and a pointer to a time structure as input, but does not perform any bounds checking on the format string or the output buffer. This can lead to a buffer overflow if the format string contains more characters than the output buffer can hold.",2223.94
+101,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,10990.67
+101,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,40295.88
+102,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,153.65
+102,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,142.29
+103,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.45
+103,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.32
+104,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,141.93
+104,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.63
+105,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,116.87
+105,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,161.1
+106,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,154.8
+106,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,124.06
+107,codellama:7b,0.0,>Overflow<>Memory Corruption<,True,CWE-758,"The function __open_catalog() contains a vulnerability in the way it handles user input. The function takes a string as an argument and uses it to construct a file path, which is then passed to the open() system call. However, the function does not properly validate the user input before using it to construct the file path, which could result in a directory traversal attack. An attacker could exploit this vulnerability by providing a malicious string that contains a series of '../' characters, which would allow them to access files outside of the expected directory.",1848.72
+107,codellama:7b,0.2,>Overflow<>Memory Corruption<,True,CWE-20,The function uses the `bswap_32` function to swap the bytes of an integer. This can be a potential vulnerability if the input is not properly validated and could potentially lead to a buffer overflow attack.,776.7
+108,codellama:7b,0.0,>Overflow<>Memory Corruption<,False,None,The provided C function does not contain any vulnerabilities. It is a well-written and secure implementation of the catgets() function from the GNU C Library.,10234.01
+108,codellama:7b,0.2,>Overflow<>Memory Corruption<,False,None,"The provided C function does not contain any security vulnerabilities. It is a simple implementation of the catgets() function from the GNU C Library, which is used to retrieve messages from message catalogs. The function uses the NLSPATH environment variable and the LANG environment variable to determine the location of the message catalog file, but it does not perform any input validation or sanitization on these variables.",2457.24
+109,codellama:7b,0.0,>Input validation<,True,CWE-20,"The function __hcreate_r uses a simple prime number test to determine if the table size is prime. However, this test is not sufficient to ensure that the table size is actually prime. An attacker could potentially exploit this vulnerability by providing a non-prime table size, which would cause the hsearch function to allocate an incorrect amount of memory.",7352.44
+109,codellama:7b,0.2,>Input validation<,False,None,"The code does not contain any vulnerabilities. The functions __hcreate_r, __hdestroy_r, and __hsearch_r are all memory safe and do not have any known security issues.",805.34
+110,codellama:7b,0.0,>Input validation<,True,CWE-20,"The function __hcreate_r uses a simple prime number test to determine if the table size is prime. However, this test is not sufficient to ensure that the table size is actually prime. An attacker could potentially exploit this vulnerability by providing a non-prime table size, which would cause the hsearch function to allocate an incorrect amount of memory.",1079.95
+110,codellama:7b,0.2,>Input validation<,True,CWE-20,"The function __hcreate_r uses a simple prime number test to determine if the table size is prime. However, this test is not sufficient to ensure that the table size is actually prime. An attacker could potentially provide a non-prime input to the function and exploit this vulnerability by causing the function to allocate an incorrect amount of memory for the hash table.",1234.2
+111,codellama:7b,0.0,>Input validation<,True,CWE-20,"The function __hcreate_r uses a simple prime number test to determine if the table size is prime. However, this test is not sufficient to ensure that the table size is actually prime. An attacker could potentially exploit this vulnerability by providing a non-prime table size, which would cause the hsearch function to allocate an incorrect amount of memory.",961.84
+111,codellama:7b,0.2,>Input validation<,False,None,"The code does not contain any vulnerabilities. The function __hcreate_r() checks if the table is already allocated and returns an error if it is. The function __hsearch_r() uses double hashing with open addressing to search for a matching entry in the hash table, but it does not use any unsafe functions such as strcpy or sprintf. Additionally, the code does not contain any buffer overflow vulnerabilities.",1020.04
+112,codellama:7b,0.0,>Input validation<,True,CWE-20,"The function __hcreate_r uses a simple prime number test to determine if the table size is prime. However, this test is not sufficient to ensure that the table size is actually prime. An attacker could potentially exploit this vulnerability by providing a non-prime table size, which would cause the hsearch function to allocate an incorrect amount of memory.",998.24
+112,codellama:7b,0.2,>Input validation<,True,CWE-20,"The function __hcreate_r contains a vulnerability in the way it handles memory allocation. The function allocates memory for the hash table using calloc and then zeroes out the memory. However, this does not guarantee that the allocated memory is actually zeroed out, as the behavior of calloc is implementation-defined when it comes to the initialization of the allocated memory.",984.74
+113,codellama:7b,0.0,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,740.43
+113,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,120.28
+114,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer of size QUERYSIZE to store the query. This can lead to a buffer overflow if the name is too long.,1917.57
+114,codellama:7b,0.2,>Input validation<,True,CWE-20,The function uses a fixed buffer of size MAXPACKET to store the response from the DNS server. This can lead to a buffer overflow if the response is larger than the buffer.,1016.5
+115,codellama:7b,0.0,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,13441.46
+115,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,732.11
+116,codellama:7b,0.0,>Input validation<,True,CWE-20,"The function uses a fixed buffer of size 1024 to store the response from the DNS server. If the response is larger than this buffer, it will cause a buffer overflow and potentially execute arbitrary code.",19182.72
+116,codellama:7b,0.2,>Input validation<,False,None,The code does not contain any obvious vulnerabilities.,1174.56
+117,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,1746.4
+117,codellama:7b,0.2,>Input validation<,True,CWE-20,The function uses a fixed buffer size for the hostname and does not check for buffer overflows. This can lead to a buffer overflow attack.,1264.12
+118,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,1461.26
+118,codellama:7b,0.2,>Input validation<,True,CWE-20,"The function uses a fixed buffer size of 1024 bytes to store the DNS response. If the DNS response is larger than this buffer, it will cause a buffer overflow and potentially execute arbitrary code.",1487.69
+119,codellama:7b,0.0,>Input validation<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,640.68
+119,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,31327.57
+120,codellama:7b,0.0,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,141.29
+120,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,115.09
+121,codellama:7b,0.0,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,106.1
+121,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,115.66
+122,codellama:7b,0.0,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,119.08
+122,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,106.73
+123,codellama:7b,0.0,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,82.23
+123,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,112.98
+124,codellama:7b,0.0,>Input validation<,True,CWE-20,"The function uses a fixed buffer of size 1024 to store the response from the DNS server. If the response is larger than this buffer, it will cause a buffer overflow and potentially execute arbitrary code.",4361.67
+124,codellama:7b,0.2,>Input validation<,True,CWE-20,The function uses a fixed buffer of size 1024 to store the DNS response. This can lead to a buffer overflow if the DNS response is larger than 1024 bytes.,1452.65
+125,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,1485.04
+125,codellama:7b,0.2,>Input validation<,False,None,The provided C function does not contain any security vulnerabilities.,1202.95
+126,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,3774.03
+126,codellama:7b,0.2,>Input validation<,False,None,Sem justificação.,1862.58
+127,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,1429.98
+127,codellama:7b,0.2,>Input validation<,True,CWE-20,"The code contains a buffer overflow vulnerability due to the use of the 'alloca' function. The size of the allocated memory is not checked before using it, which can lead to a buffer overflow attack.",1487.51
+128,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,6316.44
+128,codellama:7b,0.2,>Input validation<,True,CWE-20,"The code contains a buffer overflow vulnerability due to the use of the ""alloca"" function. The ""alloca"" function allocates memory on the stack and returns a pointer to it. However, if the size of the requested memory is greater than the available space on the stack, the program will crash with a segmentation fault. This can occur in the ""gethostbyname3_context"" function when the ""getanswer_r"" function calls the ""dn_expand"" function to unpack the name from the DNS response packet. If the size of the requested memory is greater than the available space on the stack, the program will crash with a segmentation fault.",3300.35
+129,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,1473.39
+129,codellama:7b,0.2,>Input validation<,True,CWE-20,The function does not check the length of the input string before using it as a buffer. This can lead to a buffer overflow attack.,1545.29
+130,codellama:7b,0.0,>Input validation<,True,CWE-20,The function uses a fixed buffer size of 1024 bytes for the hostent structure. This can lead to a buffer overflow if the response from the DNS server is larger than this value.,1719.91
+130,codellama:7b,0.2,>Input validation<,False,None,"The provided C code does not contain any security vulnerabilities. The code is a simple implementation of the gethostbyname() function from the GNU C Library, which is used to resolve hostnames to IP addresses. The function uses the DNS protocol to perform the resolution and does not contain any known security vulnerabilities.",1793.01
+131,codellama:7b,0.0,>Input validation<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,19833.75
+131,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,44880.86
+132,codellama:7b,0.0,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,218.54
+132,codellama:7b,0.2,>Input validation<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,187.34
+133,codellama:7b,0.0,>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,9529.4
+133,codellama:7b,0.2,>Memory Corruption<,True,CWE-20,"The function uses the gethostbyname() function to perform a DNS lookup. However, this function is known to be vulnerable to DNS cache poisoning attacks. An attacker can manipulate the DNS cache to redirect the client's requests to their own malicious servers, which can lead to data exfiltration or other types of attacks.",1420.22
+134,codellama:7b,0.0,>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,3327.9
+134,codellama:7b,0.2,>Memory Corruption<,False,None,Sem justificação.,1799.2
+135,codellama:7b,0.0,>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,7934.9
+135,codellama:7b,0.2,>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,3697.24
+136,codellama:7b,0.0,>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,5363.36
+136,codellama:7b,0.2,>Memory Corruption<,False,None,The code does not contain any obvious vulnerabilities.,640.93
+137,codellama:7b,0.0,>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,3148.61
+137,codellama:7b,0.2,>Memory Corruption<,False,None,Sem justificação.,1772.94
+138,codellama:7b,0.0,>Memory Corruption<,False,PARSE_ERROR,Output não era um JSON válido.,3147.67
+138,codellama:7b,0.2,>Memory Corruption<,True,CWE-20,"The function res_ninit() does not perform any input validation on the user provided resolver configuration file path. An attacker could potentially exploit this vulnerability by providing a malicious path to a configuration file that contains malicious data, leading to unintended behavior or even a security breach.",1237.59
+139,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,3168.15
+139,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,1873.08
+140,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,614.25
+140,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,670.45
+141,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,672.58
+141,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,334.33
+142,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,435.18
+142,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,256.01
+143,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,200.34
+143,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,133.61
+144,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,314.58
+144,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,146.2
+145,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,247.2
+145,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,83.84
+146,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,156.41
+146,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,91.17
+147,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,152.99
+147,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,189.82
+148,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,106.31
+148,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,116.04
+149,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,299.21
+149,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,161.19
+150,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,187.34
+150,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,154.0
+151,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,261.72
+151,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,144.78
+152,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.0
+152,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,112.41
+153,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,116.81
+153,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,347.1
+154,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,119.68
+154,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,209.08
+155,codellama:7b,0.0,>Memory Corruption<,False,None,"The provided C function does not contain any vulnerabilities. It is a simple implementation of the getnetbyname and getnetbyaddr functions from the GNU C Library, which are used to retrieve network information by name or address.",3865.54
+155,codellama:7b,0.2,>Memory Corruption<,True,CWE-20,The function uses a fixed buffer of size 1024 to store the response from the DNS server. This can lead to a buffer overflow if the response is larger than the allocated buffer.,908.24
+156,codellama:7b,0.0,>Memory Corruption<,False,None,"The provided C function does not contain any vulnerabilities. It is a simple implementation of the getnetbyname and getnetbyaddr functions from the GNU C Library, which are used to retrieve network information by name or address.",877.63
+156,codellama:7b,0.2,>Memory Corruption<,False,None,This code does not contain any vulnerabilities.,471.19
+157,codellama:7b,0.0,>Memory Corruption<,False,None,"The provided C function does not contain any vulnerabilities. It is a simple implementation of the getnetbyname and getnetbyaddr functions from the GNU C Library, which are used to retrieve network information by name or address.",903.12
+157,codellama:7b,0.2,>Memory Corruption<,False,None,"The provided code does not contain any vulnerabilities. It is a simple implementation of the getnetbyname and getnetbyaddr functions from the GNU C Library, which are used to perform DNS lookups for network names and addresses.",923.03
+158,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,1587.56
+158,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,157.18
+159,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,130.02
+159,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,121.34
+160,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,154.87
+160,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,128.04
+161,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,150.98
+161,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,108.13
+162,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,152.99
+162,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.5
+163,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,167.46
+163,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,85.27
+164,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.55
+164,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,109.35
+165,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,106.67
+165,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,133.46
+166,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,151.39
+166,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,118.97
+167,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,117.57
+167,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,107.42
+168,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,116.18
+168,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,93.22
+169,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.95
+169,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,146.08
+170,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,124.52
+170,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,70.4
+171,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.69
+171,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.82
+172,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,110.16
+172,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,130.68
+173,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,132.67
+173,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,87.24
+174,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,94.38
+174,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,146.36
+175,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.13
+175,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,107.76
+176,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,114.39
+176,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,114.86
+177,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,112.37
+177,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,99.05
+178,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,108.21
+178,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,153.08
+179,codellama:7b,0.0,>Memory Corruption<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",4162.52
+179,codellama:7b,0.2,>Memory Corruption<,True,CWE-285,"The provided C function uses the strdup() function to allocate memory for the glob_t structure. However, this function does not check for a NULL return value and can therefore cause a buffer overflow if the memory allocation fails.",1543.3
+180,codellama:7b,0.0,>Memory Corruption<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to traverse a directory. However, it does not check for the return value of these functions, which could indicate an error such as a missing or unreadable directory. Additionally, the function does not properly handle the case where the directory is empty.",1868.63
+180,codellama:7b,0.2,>Memory Corruption<,True,CWE-284,"The provided code contains a potential buffer overflow vulnerability due to the use of strdup() function without checking for NULL return value. If the input string is too long, it can cause a buffer overflow and potentially lead to a security breach.",1595.8
+181,codellama:7b,0.0,>Memory Corruption<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to traverse a directory. However, it does not check for the return value of these functions, which could indicate an error such as a missing or unreadable directory. Additionally, the function does not properly handle the case where the directory is empty.",1880.36
+181,codellama:7b,0.2,>Memory Corruption<,True,CWE-284,"The function does not check the return value of malloc and realloc, which can lead to a memory exhaustion attack if an attacker can cause the function to allocate large amounts of memory.",1391.04
+182,codellama:7b,0.0,>Memory Corruption<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to traverse a directory. However, it does not check for the return value of these functions, which could indicate an error such as a missing or unreadable directory. Additionally, the function does not properly handle the case where the directory is empty.",1880.57
+182,codellama:7b,0.2,>Memory Corruption<,True,CWE-284,The function uses strdup to allocate memory for the directory name. This can lead to a buffer overflow if the directory name is too long.,1252.59
+183,codellama:7b,0.0,>Memory Corruption<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to traverse a directory. However, it does not check for the return value of these functions, which could indicate an error such as a missing or unreadable directory. Additionally, the function does not properly handle the case where the directory is empty.",1932.14
+183,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,658.81
+184,codellama:7b,0.0,>Memory Corruption<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",18287.9
+184,codellama:7b,0.2,>Memory Corruption<,True,CWE-285,The function uses a static buffer to store the directory name. This can lead to a buffer overflow if the directory name is too long.,1589.36
+185,codellama:7b,0.0,>Memory Corruption<,False,None,The provided C function does not contain any security vulnerabilities.,4151.68
+185,codellama:7b,0.2,>Memory Corruption<,True,CWE-284,The function does not properly validate user input and uses untrusted data in a system call. An attacker could exploit this vulnerability by providing malicious input to the glob function.,1708.32
+186,codellama:7b,0.0,>Memory Corruption<,False,None,The provided C function does not contain any security vulnerabilities.,888.12
+186,codellama:7b,0.2,>Memory Corruption<,False,None,The code does not contain any vulnerabilities. The function is a wrapper around the glob() system call and it does not have any known security issues.,1244.0
+187,codellama:7b,0.0,>Memory Corruption<,False,None,The provided C function does not contain any security vulnerabilities.,905.49
+187,codellama:7b,0.2,>Memory Corruption<,False,CWE-None,,1201.03
+188,codellama:7b,0.0,>Memory Corruption<,False,None,The provided C function does not contain any security vulnerabilities.,4553.16
+188,codellama:7b,0.2,>Memory Corruption<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate that the directory is missing or inaccessible. Additionally, the function does not properly handle errors when using 'fnmatch' to match filenames.",2011.49
+189,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,911.63
+189,codellama:7b,0.2,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,995.52
+190,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,1601.6
+190,codellama:7b,0.2,Undefined,True,CWE-284,"The function uses the 'opendir' system call to open a directory. However, it does not check for errors returned by 'opendir'. If an error occurs while opening the directory, the program will continue executing without any indication of the problem. This can lead to unexpected behavior and potentially dangerous consequences.",1985.69
+191,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,922.38
+191,codellama:7b,0.2,Undefined,False,None,,726.25
+192,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,927.69
+192,codellama:7b,0.2,Undefined,True,CWE-285,"The function uses the 'opendir' and 'readdir' functions to traverse a directory. However, it does not properly handle errors that may occur during these operations. Specifically, if an error occurs while opening or reading from the directory, the function will continue processing as if no error occurred, potentially leading to unexpected behavior or crashes.",1978.77
+193,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,1023.74
+193,codellama:7b,0.2,Undefined,True,CWE-20,"The glob function uses the strdup function to allocate memory for the directory names found by the opendir and readdir functions. However, the strdup function does not check for buffer overflows, which can lead to a buffer overflow vulnerability.",1642.72
+194,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,919.75
+194,codellama:7b,0.2,Undefined,False,None,The provided C code does not contain any security vulnerabilities.,914.61
+195,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,885.87
+195,codellama:7b,0.2,Undefined,False,None,The provided C code does not contain any security vulnerabilities.,884.51
+196,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,907.35
+196,codellama:7b,0.2,Undefined,False,None,,748.98
+197,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,926.55
+197,codellama:7b,0.2,Undefined,True,CWE-284,"The function uses a fixed size buffer to store the directory name. If the directory name is longer than the buffer size, it will result in a buffer overflow.",1282.98
+198,codellama:7b,0.0,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,897.2
+198,codellama:7b,0.2,Undefined,True,CWE-285,"The function uses a fixed buffer to store the directory name. If the directory name is longer than the size of the buffer, it will cause a buffer overflow and potentially execute arbitrary code.",1464.66
+199,codellama:7b,0.0,Undefined,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,8306.88
+199,codellama:7b,0.2,Undefined,False,None,The provided C function does not contain any security vulnerabilities.,35276.65
+200,codellama:7b,0.0,Undefined,True,CWE-20,The function uses a fixed buffer of size QUERYSIZE to store the query. This can lead to a buffer overflow if the name is too long.,13774.15
+200,codellama:7b,0.2,Undefined,True,CWE-20,"The function uses a fixed buffer of size QUERYSIZE to store the query. If the name is longer than this value, it will cause a buffer overflow and potentially execute arbitrary code.",1127.75
+201,codellama:7b,0.0,Undefined,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,10678.14
+201,codellama:7b,0.2,Undefined,False,None,The code does not contain any known vulnerabilities.,26612.96
+202,codellama:7b,0.0,Undefined,True,CWE-20,The function uses a fixed buffer of size QUERYSIZE to store the query. This can lead to a buffer overflow if the name is too long.,2913.81
+202,codellama:7b,0.2,Undefined,False,None,,511.16
+203,codellama:7b,0.0,Undefined,True,CWE-20,The function uses a fixed buffer of size QUERYSIZE to store the query. This can lead to a buffer overflow if the name is too long.,938.32
+203,codellama:7b,0.2,Undefined,True,CWE-20,"The function uses a fixed buffer of QUERYSIZE bytes to store the query. If the name parameter is longer than this buffer, it can lead to a buffer overflow vulnerability.",1027.31
+204,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,20352.72
+204,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,None,,44074.29
+205,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2615.42
+205,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,None,,687.35
+206,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",5981.34
+206,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not properly handle errors that may occur during these operations, such as when the directory is removed or the file system becomes unavailable. This can lead to the function returning incorrect results or crashing.",1895.44
+207,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2434.64
+207,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not properly validate the input provided to these functions, which could allow an attacker to manipulate the contents of the directory and potentially cause a buffer overflow or other types of attacks.",5546.45
+208,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2034.63
+208,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses a fixed buffer of size 1024 to store the directory name. If the directory name is longer than this buffer, it will result in a buffer overflow and potentially execute arbitrary code.",1748.78
+209,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2068.65
+209,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,None,The provided C function does not contain any security vulnerabilities.,881.98
+210,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2020.75
+210,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to traverse a directory. However, it does not perform any input validation on the user provided directory path before passing it to these functions. This can lead to a potential security vulnerability if an attacker is able to manipulate the input to the function in order to access restricted or sensitive files on the system.",2141.07
+211,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2043.94
+211,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'strdup' function to allocate memory for the directory name. However, it does not check if the allocation was successful before using the allocated memory. This can lead to a buffer overflow attack.",1537.21
+212,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2051.88
+212,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-78,The function uses a fixed buffer of size 1024 to store the directory name. This can lead to a buffer overflow if the directory name is too long.,1304.89
+213,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to read from a directory. However, it does not check for the return value of these functions, which could indicate an error such as a lack of permissions or a non-existent directory. Additionally, the function does not properly handle the case where the directory is empty.",2033.92
+213,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-284,"The function uses the 'opendir' and 'readdir' functions to traverse a directory. However, it does not check if the directory is readable or if the user has permission to access it. This can lead to a security vulnerability if an attacker can manipulate the directory traversal.",1869.51
+214,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,7960.17
+214,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,27836.89
+215,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.08
+215,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,168.77
+216,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,214.66
+216,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,170.14
+217,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.36
+217,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,187.24
+218,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,190.95
+218,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,209.91
+219,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,253.64
+219,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.11
+220,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,144.53
+220,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,168.61
+221,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,184.44
+221,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,158.62
+222,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,156.82
+222,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,173.83
+223,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.05
+223,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,168.46
+224,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,171.69
+224,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,174.66
+225,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,172.22
+225,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.85
+226,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.03
+226,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,214.93
+227,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.49
+227,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,172.12
+228,codellama:7b,0.0,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,171.37
+228,codellama:7b,0.2,>Memory Corruption<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,168.28
+229,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,211.43
+229,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,211.18
+230,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,267.81
+230,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,423.78
+231,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,752.76
+231,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,785.93
+232,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,375.23
+232,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,547.83
+233,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,985.58
+233,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,206.55
+234,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,179.07
+234,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,170.58
+235,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,173.28
+235,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.21
+236,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,298.87
+236,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,304.56
+237,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,222.98
+237,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,173.29
+238,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,199.86
+238,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,148.74
+239,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,178.04
+239,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,149.82
+240,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,155.78
+240,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,180.94
+241,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,209.27
+241,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,176.65
+242,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,178.06
+242,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,173.68
+243,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,170.61
+243,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,217.1
+244,codellama:7b,0.0,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.74
+244,codellama:7b,0.2,>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,174.46
+245,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.05
+245,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,73.1
+246,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,163.59
+246,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,74.83
+247,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,117.96
+247,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,113.68
+248,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,185.88
+248,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,176.43
+249,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,1602.98
+249,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,281.96
+250,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,613.28
+250,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,151.14
+251,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,379.65
+251,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.78
+252,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,2344.19
+252,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,706.97
+253,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,123.06
+253,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,119.77
+254,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,147.37
+254,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,107.58
+255,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,109.67
+255,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,108.41
+256,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,141.66
+256,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,106.9
+257,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,104.62
+257,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,134.21
+258,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.35
+258,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,141.55
+259,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,114.76
+259,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.95
+260,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,146.57
+260,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,124.95
+261,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,107.37
+261,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,155.04
+262,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,109.26
+262,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.48
+263,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,167.51
+263,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,222.86
+264,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,216.12
+264,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.86
+265,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.31
+265,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,147.79
+266,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,173.8
+266,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,195.27
+267,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,420.07
+267,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,369.66
+268,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,494.97
+268,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,789.27
+269,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,414.77
+269,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,476.72
+270,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,427.96
+270,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,211.62
+271,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,196.14
+271,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,170.72
+272,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.07
+272,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,175.71
+273,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.43
+273,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,166.25
+274,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,212.17
+274,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,169.6
+275,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,171.62
+275,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,214.92
+276,codellama:7b,0.0,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,174.01
+276,codellama:7b,0.2,>Memory Corruption<>Execute code<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,195.34
+277,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-78,"The function inet_aton() is vulnerable to a buffer overflow attack because it does not check the length of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by providing a specially crafted input string that exceeds the size of the destination buffer, causing the function to overwrite adjacent memory locations with arbitrary data.",1479.6
+277,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-78,"The function inet_aton() is vulnerable to a buffer overflow attack because it does not check the length of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by providing a long input string that exceeds the size of the buffer, causing the function to overwrite adjacent memory locations with arbitrary data.",959.36
+278,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function contains a vulnerability in the form of an information disclosure issue. The function is designed to return a hostent structure that contains a list of IP addresses for a given hostname. However, if the input hostname consists only of digits or dots, the function will return a hostent structure with a single IP address that is the result of inet_aton() or inet_pton(). This can potentially expose sensitive information such as an internal network IP address to an attacker who may be able to use this information to gain unauthorized access to the system.",2439.79
+278,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,None,This function does not contain any vulnerabilities.,435.65
+279,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function contains a vulnerability in the form of an information disclosure issue. The function is designed to return a hostent structure that contains a list of IP addresses for a given hostname. However, if the input hostname consists only of digits or dots, the function will return a hostent structure with a single IP address that is the result of inet_aton() or inet_pton(). This can potentially expose sensitive information such as an internal network IP address to an attacker who may be able to use this information to gain unauthorized access to the system.",1453.76
+279,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,None,The code does not contain any vulnerabilities. It is a simple function that checks if the input string contains only digits or dots and returns an error if it does not meet the requirements.,693.59
+280,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file that contains a long string, which will cause the function to overwrite adjacent memory locations.",3095.88
+280,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,None,The provided C function does not contain any vulnerabilities.,595.8
+281,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file that contains a long string, which will cause the function to overwrite adjacent memory locations.",1403.29
+281,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() does not check the validity of its input parameters. An attacker could potentially exploit this vulnerability by providing a malicious file path to the function, which would allow them to execute arbitrary code.",1100.02
+282,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file that contains a long string, which will cause the function to overwrite adjacent memory locations.",1434.3
+282,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,None,Sem justificação.,1742.06
+283,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,15616.99
+283,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,35286.64
+284,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,207.63
+284,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,1320.87
+285,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file that contains a long string, which will cause the function to overwrite adjacent memory locations.",2431.73
+285,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-20,"The provided C function is vulnerable to a buffer overflow attack. The function uses the __getline function which has a potential for buffer overflows due to its use of realloc. Additionally, the function does not check the return value of strpbrk and strchr, which could also lead to a buffer overflow.",1452.31
+286,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,15341.76
+286,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,273.92
+287,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,150.43
+287,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,155.38
+288,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,131.58
+288,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,125.02
+289,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,105.63
+289,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,93.18
+290,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,157.37
+290,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.84
+291,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,187.7
+291,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,104.4
+292,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,104.7
+292,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,124.42
+293,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,112.76
+293,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,117.08
+294,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,107.33
+294,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,88.26
+295,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,124.72
+295,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,85.36
+296,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,144.77
+296,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,65.81
+297,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,138.44
+297,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,145.95
+298,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it uses the strncpy() function without any bounds checking. An attacker can exploit this vulnerability by sending a specially crafted string that exceeds the size of the destination buffer, causing the function to overwrite adjacent memory locations.",1407.16
+298,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,PARSE_ERROR,Output não era um JSON válido.,3144.66
+299,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,22413.71
+299,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,181.61
+300,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function inet_aton() is vulnerable to buffer overflow attacks because it does not check the length of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by providing a specially crafted input string that exceeds the size of the destination buffer, causing an overwrite and potentially leading to arbitrary code execution.",1329.29
+300,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-20,"The function inet_aton() is vulnerable to buffer overflow attacks because it does not check the length of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted input string that exceeds the size of the destination buffer, causing the function to overwrite adjacent memory locations with arbitrary data.",1184.64
+301,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,42544.2
+301,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,95.28
+302,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it does not check the size of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file that contains a long string, which will cause the function to overwrite adjacent memory locations.",4433.62
+302,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it uses the strncpy() function without setting a maximum limit on the number of characters copied. An attacker can exploit this vulnerability by sending a specially crafted resolv.conf file that contains a long string of characters, causing the function to copy more data than expected and potentially leading to a buffer overflow.",1594.87
+303,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,14792.92
+303,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,127.75
+304,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function inet_aton() is vulnerable to buffer overflow attacks because it does not check the length of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by providing a specially crafted input string that exceeds the size of the destination buffer, causing an overwrite and potentially leading to arbitrary code execution.",1277.1
+304,codellama:7b,0.2,>Memory Corruption<>Denial of service<,True,CWE-20,"The function inet_aton() is vulnerable to a buffer overflow attack because it does not check the length of the input string before copying it into a fixed-size buffer. An attacker can exploit this vulnerability by sending a specially crafted string that exceeds the size of the destination buffer, causing the function to overwrite adjacent memory locations.",960.47
+305,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,837.24
+305,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.57
+306,codellama:7b,0.0,>Memory Corruption<>Denial of service<,True,CWE-20,"The function res_ninit() is vulnerable to a buffer overflow attack because it uses the strncpy() function without any bounds checking. An attacker can exploit this vulnerability by sending a specially crafted string that exceeds the size of the destination buffer, causing the function to overwrite adjacent memory locations.",1968.39
+306,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,PARSE_ERROR,Output não era um JSON válido.,3187.35
+307,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,17761.58
+307,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,619.55
+308,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,197.04
+308,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,188.33
+309,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,195.39
+309,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,220.76
+310,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.46
+310,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,174.36
+311,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.07
+311,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,136.26
+312,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,162.1
+312,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,184.99
+313,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,155.82
+313,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.91
+314,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,165.68
+314,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.32
+315,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,153.05
+315,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,115.61
+316,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.4
+316,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,139.17
+317,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.51
+317,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,138.81
+318,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,155.38
+318,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,157.07
+319,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,136.04
+319,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,147.56
+320,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.05
+320,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,174.52
+321,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.19
+321,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,158.04
+322,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,152.54
+322,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,132.6
+323,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,163.1
+323,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,149.79
+324,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,167.98
+324,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.46
+325,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.32
+325,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.36
+326,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,139.5
+326,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,165.87
+327,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,131.98
+327,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,134.37
+328,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,133.49
+328,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,150.28
+329,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.33
+329,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,133.32
+330,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,160.56
+330,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,159.97
+331,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,165.66
+331,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,135.3
+332,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,142.83
+332,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,143.44
+333,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,161.91
+333,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,123.59
+334,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.39
+334,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.14
+335,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,137.5
+335,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,125.24
+336,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,146.95
+336,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,160.49
+337,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,133.49
+337,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,151.66
+338,codellama:7b,0.0,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,142.98
+338,codellama:7b,0.2,>Memory Corruption<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,134.66
+339,codellama:7b,0.0,>Overflow<>Denial of service<,False,None,The code does not contain any vulnerabilities.,1021.22
+339,codellama:7b,0.2,>Overflow<>Denial of service<,False,None,The code does not contain any vulnerabilities.,485.21
+340,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,8552.11
+340,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The function find_suffix uses a while loop to parse the suffixes in the conversion code string. However, it does not check for buffer overflows when parsing the suffixes. This can lead to a buffer overflow vulnerability if an attacker provides a specially crafted conversion code with a long suffix.",29546.3
+341,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,8076.68
+341,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,463.41
+342,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,The code contains a buffer overflow vulnerability in the process_block function. The code reads input from a file and writes it to an output file without any bounds checking. This can lead to a buffer overflow attack if the input is larger than the allocated buffer.,1970.41
+342,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,The code contains a buffer overflow vulnerability in the process_block function. The input is not properly validated and the output buffer size is calculated based on the input length. An attacker can exploit this vulnerability by sending a specially crafted input that exceeds the allocated memory.,1196.18
+343,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,10452.97
+343,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,102.82
+344,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability in the process_block function. The function reads input from a file descriptor and writes it to an output file using fwrite. However, there is no check for the size of the output buffer before writing to it, which can cause a buffer overflow if the input data is larger than the output buffer.",5114.9
+344,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability in the process_block function. The function reads input from a file and writes it to an output file using the iconv() function. However, the function does not check the size of the output buffer before writing to it, which can cause a buffer overflow if the output is too large. Additionally, the code does not properly handle errors returned by the iconv() function, which can also lead to a buffer overflow.",6234.55
+345,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability in the process_block function. The function reads input from a file descriptor and writes it to an output file using fwrite. However, there is no check for the size of the output buffer before writing to it, which can cause a buffer overflow if the input data is larger than the output buffer.",1797.72
+345,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The function process_block() contains a buffer overflow vulnerability. The function uses the iconv() function to convert text from one encoding to another. However, it does not check the return value of the iconv() function and assumes that the conversion was successful. This can lead to a buffer overflow if the input data is too large for the output buffer.",1758.73
+346,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,2663.55
+346,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,152048.45
+347,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,The function find_suffix does not check for buffer overflows when parsing the conversion code. An attacker could exploit this vulnerability by providing a specially crafted conversion code that exceeds the size of the buffer used to store it.,96059.45
+347,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The function __gconv_create_spec is vulnerable to a buffer overflow attack. The function takes two strings as input and allocates memory for them using the malloc function. However, it does not check the size of the input strings before allocating memory for them. An attacker can exploit this vulnerability by providing a specially crafted string that exceeds the allocated memory.",3268.72
+348,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,788.01
+348,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,152.37
+349,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,121.81
+349,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,102.0
+350,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability in the process_block function. The function reads input from a file descriptor and writes it to an output file using fwrite. However, there is no check for the size of the output buffer before writing to it, which can cause a buffer overflow if the output file is too large.",9156.91
+350,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability. The function process_block() reads input data into a static buffer of size OUTBUF_SIZE. If the input data is larger than this buffer, it will cause a buffer overflow and potentially execute arbitrary code.",5075.52
+351,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,The code contains a buffer overflow vulnerability in the process_block function. The code reads input from a file and writes it to an output file without any bounds checking. This can lead to a buffer overflow attack if the input is larger than the allocated buffer.,4480.49
+351,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The function process_block() contains a vulnerability that allows an attacker to cause a denial of service (DoS) attack by sending a specially crafted input. The vulnerability is caused by the fact that the function does not check the return value of iconv(), which can return -1 in case of an error. If this happens, the function will continue processing the input and may produce incorrect output or crash.",7794.41
+352,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,13377.33
+352,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,The function find_suffix() does not check for buffer overflows when parsing the conversion code. An attacker could potentially exploit this vulnerability by providing a specially crafted conversion code that exceeds the size of the buffer used to store it.,49312.26
+353,codellama:7b,0.0,>Overflow<>Denial of service<,False,None,The code does not contain any vulnerabilities.,2471.5
+353,codellama:7b,0.2,>Overflow<>Denial of service<,False,None,The provided code does not contain any vulnerabilities.,1427.17
+354,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,1033.12
+354,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,176.66
+355,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,113.9
+355,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,111.67
+356,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability in the process_block function. The function reads input from a file descriptor and writes it to an output file using fwrite. However, there is no check for the size of the output buffer before writing to it, which can cause a buffer overflow if the output file is too large.",16496.99
+356,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability. The function process_block() reads the input file in a buffer and processes it in one step. However, there is no check for the size of the buffer, which can lead to a buffer overflow if the input file is larger than the buffer.",7378.04
+357,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,The code contains a buffer overflow vulnerability in the process_block function. The code reads input from a file and writes it to an output file without any bounds checking. This can lead to a buffer overflow attack if the input is larger than the allocated buffer.,7766.07
+357,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,The code contains a buffer overflow vulnerability in the process_block function. The code reads input from a file and writes it to an output file without any bounds checking. This can lead to a buffer overflow attack if the input is larger than the output buffer.,5962.31
+358,codellama:7b,0.0,>Overflow<>Denial of service<,False,API_ERROR,500 Server Error: Internal Server Error for url: http://10.3.1.226:80/api/generate,5871.93
+358,codellama:7b,0.2,>Overflow<>Denial of service<,False,API_ERROR,400 Client Error: Bad Request for url: http://10.3.1.226:80/api/generate,43014.69
+359,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,The code contains a buffer overflow vulnerability in the process_block function. The code reads input from a file and writes it to an output file without any bounds checking. This can lead to a buffer overflow attack if the input is larger than the allocated buffer.,7661.66
+359,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability due to the use of strncpy() without proper bounds checking. The function is used to copy strings from one buffer to another, but it does not check whether the destination buffer has enough space to hold the entire source string. This can lead to an out-of-bounds write and a potential security issue.",9742.83
+360,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability due to the use of strncpy() without proper bounds checking. The function is used to copy strings from one location to another, but it does not check whether the destination buffer has enough space to hold the entire source string. This can lead to an exploitable buffer overflow attack.",7505.46
+360,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,The code contains a vulnerability in the form of an SQL injection attack. The application does not properly sanitize user input and allows an attacker to execute arbitrary SQL commands on the database.,17129.22
+361,codellama:7b,0.0,>Overflow<>Denial of service<,True,CWE-20,"The code contains a buffer overflow vulnerability due to the use of strncpy() without proper bounds checking. The function is used to copy strings from one location to another, but it does not check whether the destination buffer has enough space to hold the entire source string. This can lead to an exploitable buffer overflow attack.",28262.82
+361,codellama:7b,0.2,>Overflow<>Denial of service<,True,CWE-20,"The function process_block() contains a buffer overflow vulnerability. The function uses the iconv() function to convert text from one encoding to another. However, it does not check the return value of the iconv() function, which can indicate that an error occurred during conversion. If an error occurs, the function continues processing the input and may produce incorrect output or crash.",33267.16
